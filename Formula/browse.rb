@@ -1,28 +1,28 @@
 class Browse < Formula
   desc "Persistent headless browser CLI for AI agents"
   homepage "https://juanheyns.github.io/gstack-browse/"
-  version "1.0.14"
+  version "1.0.15"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.14/browse-darwin-arm64.tar.gz"
-      sha256 "8142f9243c81fe4651069411a114542bf5c4864052635bde02655af8a3d51949"
+      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.15/browse-darwin-arm64.tar.gz"
+      sha256 "091bafe231c18965ec89265ef17690ed56daeb9143802d218e032fa9cbc5c8fb"
     end
     on_intel do
-      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.14/browse-darwin-x86_64.tar.gz"
-      sha256 "63e53c46150937724fd7fe030029571cd82986dd3642d6ea9b401c9d30054ebd"
+      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.15/browse-darwin-x86_64.tar.gz"
+      sha256 "31089e162a5c9ea64c6c5b4037fec13353451d2a543f6118b94c2b6d96aa8294"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.14/browse-linux-arm64.tar.gz"
-      sha256 "cf859e6a728d9d302722b6d59bb786bd44d9669527865778cbc7b1955b40a606"
+      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.15/browse-linux-arm64.tar.gz"
+      sha256 "2ce7524a73708992c3519ec254bea820e4b550f00ce226fabb8b86a705a7826e"
     end
     on_intel do
-      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.14/browse-linux-x86_64.tar.gz"
-      sha256 "3253c0698f60035231bc99ef73b76ab970e8e6434a2fa9aa6f41efc0a2c44cb3"
+      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.15/browse-linux-x86_64.tar.gz"
+      sha256 "6bbbab99874a8bccb2efa336d2182915d0b96e68ce869bcca2ccff991fe3ece8"
     end
   end
 
