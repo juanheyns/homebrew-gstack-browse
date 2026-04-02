@@ -30,6 +30,14 @@ class BrowseAgent < Formula
 
   def install
     bin.install "browse-agent"
+    bin.install "sidebar-agent.mjs"
+  end
+
+  def caveats
+    <<~EOS
+      Requires the claude CLI (Claude Code) in PATH.
+      Install from: https://claude.ai/download
+    EOS
   end
 
   test do
