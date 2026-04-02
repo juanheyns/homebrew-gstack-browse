@@ -28,6 +28,7 @@ class Browse < Formula
 
   def install
     bin.install "browse"
+    bin.install "browse-server"
   end
 
   def post_install
