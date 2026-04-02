@@ -29,6 +29,7 @@ class Browse < Formula
   def install
     bin.install "browse"
     bin.install "server.mjs"
+    (share/"browse").install "extension"
   end
 
   def caveats
