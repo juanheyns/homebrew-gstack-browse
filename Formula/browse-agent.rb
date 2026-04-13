@@ -1,30 +1,30 @@
 class BrowseAgent < Formula
   desc "Claude AI add-on for browse — enables the sidebar agent"
   homepage "https://github.com/juanheyns/gstack-browse"
-  version "1.0.17"
+  version "1.0.18"
   license "MIT"
 
   depends_on "juanheyns/gstack/browse"
 
   on_macos do
     on_arm do
-      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.17/browse-agent-darwin-arm64.tar.gz"
-      sha256 "577e22d6597efb48d452ed04c5c3aed9c307f1e5f3679c9b41ddcf349796c7b9"
+      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.18/browse-agent-darwin-arm64.tar.gz"
+      sha256 "9bdf9c7a03224a9b51a1d8e1b93fa15fe865d01e13535c5e9077f0195001c8c3"
     end
     on_intel do
-      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.17/browse-agent-darwin-x86_64.tar.gz"
-      sha256 "cd4cff320998f210d78013055319e6d34cb177e7c92f85d69236c5ba40066434"
+      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.18/browse-agent-darwin-x86_64.tar.gz"
+      sha256 "d63b6016d2d7ba091f8941da8652bb97fa242cbafa4edd3fe4fd0bd917952145"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.17/browse-agent-linux-arm64.tar.gz"
-      sha256 "9fd60f8ca66e165f96d4567c74509645d3a0fdd97f046211abad98f36ed042b0"
+      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.18/browse-agent-linux-arm64.tar.gz"
+      sha256 "45663afd1bf83c0989a19f49d23792fdac54473ecf8a52f7f9ba0d63820182be"
     end
     on_intel do
-      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.17/browse-agent-linux-x86_64.tar.gz"
-      sha256 "978a1f3871def52e8fb7cfc8df3c69e4a3571e792827b67443e0f951f2c645ce"
+      url "https://github.com/juanheyns/gstack-browse/releases/download/v1.0.18/browse-agent-linux-x86_64.tar.gz"
+      sha256 "defd64b3bc3122b8f8ad9ff00defcde3b38d7273b649254dbc2814b5883e88dc"
     end
   end
 
